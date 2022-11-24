@@ -1,0 +1,88 @@
+{
+    "id": 5,
+    "annotations": [
+        {
+            "id": 1,
+            "completed_by": 1,
+            "result": [
+                {
+                    "original_width": 500,
+                    "original_height": 281,
+                    "image_rotation": 0,
+                    "value": {
+                        "x": 42.37181091308594,
+                        "y": 18.598973284412534,
+                        "width": 19.232058715820312,
+                        "height": 48.64547566586966,
+                        "rotation": 0,
+                        "rectanglelabels": [
+                            "face"
+                        ]
+                    },
+                    "id": "0",
+                    "from_name": "label",
+                    "to_name": "image",
+                    "type": "rectanglelabels",
+                    "origin": "prediction",
+                    "score": 83.13779830932617
+                }
+            ],
+            "was_cancelled": False,
+            "ground_truth": False,
+            "created_at": "2022-08-03T08:47:35.465373Z",
+            "updated_at": "2022-08-03T09:07:45.377992Z",
+            "lead_time": 119.906,
+            "prediction": {
+                "id": 38,
+                "model_version": "1659516296",
+                "created_ago": "2\xa0minutes",
+                "result": [
+                    {
+                        "from_name": "label",
+                        "id": "0",
+                        "score": 83.13779830932617,
+                        "to_name": "image",
+                        "type": "rectanglelabels",
+                        "value": {
+                            "height": 48.64547566586966,
+                            "rectanglelabels": [
+                                "face"
+                            ],
+                            "width": 19.232058715820312,
+                            "x": 42.37181091308594,
+                            "y": 18.598973284412534
+                        }
+                    }
+                ],
+                "score": 83.13779830932617,
+                "cluster": None,
+                "neighbors": None,
+                "mislabeling": 0.0,
+                "created_at": "2022-08-03T08:45:28.317788Z",
+                "updated_at": "2022-08-03T08:45:28.317788Z",
+                "task": 5
+            },
+            "result_count": 0,
+            "task": 5,
+            "parent_prediction": 38,
+            "parent_annotation": None
+        }
+    ],
+    "file_upload": "b848059e-000003.jpg",
+    "drafts": [],
+    "predictions": [
+        38
+    ],
+    "data": {
+        "image": "/data/upload/4/b848059e-000003.jpg"
+    },
+    "meta": {},
+    "created_at": "2022-08-03T08:45:17.343400Z",
+    "updated_at": "2022-08-03T09:07:45.433288Z",
+    "inner_id": 5,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 1,
+    "project": 4,
+    "updated_by": 1
+}

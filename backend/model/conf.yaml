@@ -1,0 +1,4 @@
+config_file: D:\CommonProject\LabelStudio\backend\mmdetection\model\fcos_common.py
+checkpoint_file: D:\CommonProject\LabelStudio\backend\workdir\latest.pth
+device: cuda:0
+workdir: D:\CommonProject\LabelStudio\backend\workdir

@@ -1,0 +1,1 @@
+cmd /k "conda activate labelstudio && label-studio.exe --data-dir . -p 80"
